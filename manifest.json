@@ -1,27 +1,20 @@
 {
-  "name": "Loadjs",
+  "name": "Linkedin Learning View",
   "manifest_version": 2,
-  "description": "Carrega um arquivo js em uma página.",
+  "description": "Adiciona arquivos css e js para mudar a visualização padrão dos vídeos.",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png"
   },
   "permissions": [
+    "https://www.linkedin.com/learning/",
     "activeTab"
   ],
   "content_scripts": [
     {
-      "matches": [
-        "*://*.linkedin.com/learning/*"
-      ],
-      "js": [
-        "script.js"
-      ],
-      "css": [
-        "style.css"
-      ],
-      "run_at": "document_end",
-      "persistent": false
+      "matches": ["https://www.linkedin.com/learning/*"],
+      "js": ["script.js"],
+      "css": ["style.css"]
     }
   ]
 }

@@ -1,3 +1,7 @@
+.course-banner__actions  > li:nth-child(2) {
+  display: none;
+}
+
 .course-body__content {
   justify-content: space-between !important;
 }
@@ -17,7 +21,7 @@
   margin-top: 0 !important;
   height: 439px !important;
   overflow-y: auto !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
  
 .course-body__sidebar {
@@ -28,14 +32,6 @@
   flex: initial !important;
 }
 
-/* .course-body__info-panel {
-  padding: 12px 0 12px 48px !important;
-} */
-
 .course-body__transcripts {
   margin-right: -38px !important;
 }
-
-/* .transcripts-content {
-  overflow: initial !important;
-} */
