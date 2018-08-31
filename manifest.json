@@ -1,0 +1,27 @@
+{
+  "name": "Loadjs",
+  "manifest_version": 2,
+  "description": "Carrega um arquivo js em uma página.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/learning/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_end",
+      "persistent": false
+    }
+  ]
+}

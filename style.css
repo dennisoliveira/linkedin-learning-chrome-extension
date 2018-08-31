@@ -1,0 +1,41 @@
+.course-body__content {
+  justify-content: space-between !important;
+}
+
+.course-body__player-area {
+  order: 1 !important;
+  margin-left: 0 !important;
+  height: 440px !important;
+  width: 60% !important;
+  flex: initial !important;
+}
+
+.course-body__info {
+  order: 2 !important;
+  margin-left: 0 !important;
+  width: 38% !important;
+  margin-top: 0 !important;
+  height: 439px !important;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+}
+ 
+.course-body__sidebar {
+  order: 3 !important;
+  position: static !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+  flex: initial !important;
+}
+
+/* .course-body__info-panel {
+  padding: 12px 0 12px 48px !important;
+} */
+
+.course-body__transcripts {
+  margin-right: -38px !important;
+}
+
+/* .transcripts-content {
+  overflow: initial !important;
+} */
