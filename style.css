@@ -1,37 +1,30 @@
-.course-banner__actions  > li:nth-child(2) {
-  display: none;
+.classroom-layout__content {
+  flex-flow: row !important;
 }
 
-.course-body__content {
-  justify-content: space-between !important;
+.classroom-layout__workspace {
+  flex: 0 0 30% !important;
 }
 
-.course-body__player-area {
-  order: 1 !important;
-  margin-left: 0 !important;
-  height: 440px !important;
-  width: 60% !important;
-  flex: initial !important;
+.classroom-layout__workspace-tabs {
+  width: 408px !important;
 }
 
-.course-body__info {
-  order: 2 !important;
-  margin-left: 0 !important;
-  width: 38% !important;
-  margin-top: 0 !important;
-  height: 439px !important;
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
-}
- 
-.course-body__sidebar {
-  order: 3 !important;
-  position: static !important;
-  width: 100% !important;
-  margin-top: 20px !important;
-  flex: initial !important;
+.classroom-layout__workspace-tabpanel {
+  margin: 0 !important;
 }
 
-.course-body__transcripts {
-  margin-right: -38px !important;
+.classroom-layout-panel-layout__main {
+  padding: 0 !important;
+  height: 552px;
+  padding: 10px !important;
+  overflow-y: scroll;
+}
+
+.classroom-layout-panel-layout__supplement {
+  display: none !important;
+}
+
+.classroom-layout-panel-layout__toolbar {
+  display: none !important;
 }
